@@ -1,0 +1,30 @@
+а. Основы
+	i. Введение:
+		1. git commit
+		   git commit
+		
+		2. git checkout -b bugFix
+		
+		3. git checkout -b bugFix
+		   git commit
+		   git checkout main;git commit
+		   git merge bugFix
+		
+		4. git checkout -b bugFix
+		   git commit
+		   git checkout main
+		   git commit
+		   git checkout bugFix
+		   git rebase main	
+	ii. Едем дальше
+		1. git checkout C4
+		
+		2. git checkout C3
+		
+		3. git checkout HEAD^
+		   git branch -f main C6
+		   git branch -f bugFix C0
+		   
+		4. git reset HEAD^
+		   git checkout pushed
+		   git revert HEAD
